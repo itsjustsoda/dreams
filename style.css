@@ -1,0 +1,71 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl,
+dt, dd, blockquote, address, main, section, article{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+}
+
+#site-header {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+
+  background: #424242;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#title {
+  margin: auto;
+  padding: 2rem;
+
+  max-width: 600px;
+
+  font-size: 2.25em;
+
+  color: white;
+}
+
+#title h1 {
+  margin: -8rem auto 0 auto;
+
+  font: 3.375em 'Francois One', sans-serif;
+
+  text-align: center;
+  text-decoration: underline;
+}
+
+#title h2 {
+  margin: 1em auto;
+
+  font: 0.667em 'Satisfy', cursive;
+  font-style: italic;
+  max-width: 400px;
+
+  text-align: center;
+}
+
+.post {
+  margin: 0 auto;
+  padding: 4rem;
+
+  min-height: 100vh;
+}
+
+.post > header {
+  color: #424254;
+  font: 2.25em 'Francois One', sans-serif; 
+
+  text-align: center;
+}
+
+#may14 > canvas {
+  display: block;
+  margin: 4rem auto;
+}
