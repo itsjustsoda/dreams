@@ -1,0 +1,24 @@
+{
+  "name": "dreams",
+  "version": "0.1.0",
+  "homepage": "https://github.com/itsjustsoda/dreams",
+  "authors": [
+    "John Fresco <john.fresco@utah.edu>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.8.0",
+    "p5js": "~0.4.4"
+  },
+  "install": {
+	"path": "vendor"
+  }
+}
