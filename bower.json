@@ -19,6 +19,12 @@
     "p5js": "~0.4.4"
   },
   "install": {
-	"path": "vendor"
+    "path": {
+      "js": "vendor"
+    },
+    "sources": {
+      "lodash": "bower_components/lodash/lodash.min.js",
+      "p5js": "bower_components/p5js/lib/p5.min.js"
+    }
   }
 }
